@@ -27,7 +27,7 @@ import agents.dqn_2 as Agent2
 import agents.dqn_3 as Agent3
 
 
-GUI_choice = "sumo"
+GUI_choice = "sumo-gui"
 
 junction_list = ['1', '2', '3']
 coordinated_junction_list = ['1', '2']
