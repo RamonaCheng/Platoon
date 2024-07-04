@@ -1,0 +1,24 @@
+<nodes> <!-- The opening tag -->
+  <node id="gneA0" x="190.0" y="610.0" type="priority"/>
+  <node id="gneJ0" x="-10.0" y="400.0" type="priority"/>
+  <node id="gneJ6" x="810.0" y="200.0" type="priority"/>
+  <node id="gneJ7" x="610.0" y="0.0" type="priority"/>
+  
+
+  <node id="junction1" x="200.0" y="600.0" type="priority"/>
+  <node id="junction12" x="400.0" y="600.0" type="priority"/>
+
+  <node id="junction4" x="0.0" y="400.0" type="priority"/>
+  <node id="junction5" x="200.0" y="400.0" type="priority"/>
+  <node id="junction6" x="400.0" y="400.0" type="priority"/>
+  <node id="junction7" x="600.0" y="400.0" type="priority"/>
+  <node id="junction8" x="800.0" y="400.0" type="priority"/>
+
+  <node id="junction9" x="200.0" y="200.0" type="priority"/>
+  <node id="junction10" x="400.0" y="200.0" type="priority"/>
+  <node id="junction11" x="600.0" y="200.0" type="priority"/>
+  <node id="junction2" x="800.0" y="200.0" type="priority"/>
+
+  <node id="junction13" x="400.0" y="0.0" type="priority"/>
+  <node id="junction3" x="600.0" y="0.0" type="priority"/>
+</nodes> <!-- The closing tag -->

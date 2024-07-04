@@ -1,0 +1,27 @@
+<edges>
+  <edge id="link1" from="junction1" to="junction5" length="2000" numLanes="1" speed="50"/>
+  <edge id="link2" from="junction1" to="junction12" length="2000" numLanes="1" speed="50"/>
+  <edge id="link3" from="junction4" to="junction5" length="2000" numLanes="1" speed="50"/>
+  <edge id="link4" from="junction4" to="junction9" length="2828" numLanes="1" speed="50"/>
+  <edge id="link5" from="junction5" to="junction6" length="2000" numLanes="1" speed="50"/>
+  <edge id="link6" from="junction5" to="junction9" length="2000" numLanes="1" speed="50"/>
+  <edge id="link7" from="junction6" to="junction7" length="2000" numLanes="1" speed="50"/>
+  <edge id="link8" from="junction6" to="junction10" length="2000" numLanes="1" speed="50"/>
+  <edge id="link9" from="junction7" to="junction8" length="2000" numLanes="1" speed="50"/>
+  <edge id="link10" from="junction7" to="junction11" length="2000" numLanes="1" speed="50"/>
+  <edge id="link11" from="junction8" to="junction2" length="2000" numLanes="1" speed="50"/>
+  <edge id="link12" from="junction9" to="junction10" length="2000" numLanes="1" speed="50"/>
+  <edge id="link13" from="junction9" to="junction13" length="2828" numLanes="1" speed="50"/>
+  <edge id="link14" from="junction10" to="junction11" length="2000" numLanes="1" speed="50"/>
+  <edge id="link15" from="junction11" to="junction2" length="2000" numLanes="1" speed="50"/>
+  <edge id="link16" from="junction11" to="junction3" length="2000" numLanes="1" speed="50"/>
+  <edge id="link17" from="junction12" to="junction6" length="2000" numLanes="1" speed="50"/>
+  <edge id="link18" from="junction12" to="junction8" length="4472" numLanes="1" speed="50"/>
+  <edge id="link19" from="junction13" to="junction3" length="2000" numLanes="1" speed="50"/>
+
+  <edge id="start1" from="gneA0" to="junction1" length="5000" numLanes="1" speed="50"/>
+  <edge id="start2" from="gneJ0" to="junction4" length="5000" numLanes="1" speed="50"/>
+  <edge id="end1" from="junction2" to="gneJ6" length="20" numLanes="1" speed="50"/>
+  <edge id="end2" from="junction3" to="gneJ7" length="20" numLanes="1" speed="50"/>
+
+</edges>

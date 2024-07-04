@@ -1,0 +1,9 @@
+***Starting server on port 57161 ***
+Loading net-file from 'Nguyen-Dupuis/newND.net.xml' ... done (1ms).
+Loading additional-files from 'Nguyen-Dupuis/abc.add.xml' ... done (16ms).
+Loading done.
+Simulation version v1_20_0+0251-82de900cd34 started with time: 0.00.
+Error: tcpip::Socket::recvAndCheck @ recv: Connection reset by peer
+Quitting (on error).
+DijkstraRouter answered 119 queries and explored 2.68 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

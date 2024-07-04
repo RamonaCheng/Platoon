@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 15:10:43 by Eclipse SUMO GUI Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N2_500.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49143"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="e1Detectorlink8" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="900.00" end="1800.00" id="e1Detectorlink8" nVehContrib="36" flow="144.00" occupancy="1.22" speed="16.50" harmonicMeanSpeed="16.38" length="5.00" nVehEntered="36"/>
+    <interval begin="1800.00" end="2700.00" id="e1Detectorlink8" nVehContrib="39" flow="156.00" occupancy="1.25" speed="18.06" harmonicMeanSpeed="17.30" length="5.00" nVehEntered="39"/>
+    <interval begin="2700.00" end="3600.00" id="e1Detectorlink8" nVehContrib="25" flow="100.00" occupancy="0.86" speed="16.30" harmonicMeanSpeed="16.15" length="5.00" nVehEntered="25"/>
+    <interval begin="3600.00" end="4001.00" id="e1Detectorlink8" nVehContrib="9" flow="80.80" occupancy="0.68" speed="16.66" harmonicMeanSpeed="16.56" length="5.00" nVehEntered="9"/>
+</detector>

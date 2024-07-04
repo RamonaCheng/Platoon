@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+
+	<route id="route0" edges="start1 end1" />
+    <route id="route1" edges="start1 end2" />
+    <route id="route2" edges="start2 end1" />
+    <route id="route3" edges="start2 end2" />
+
+
+    <vType id="conventional" vClass="passenger" tau="5.5" minGap="7.5" carFollowModel="IDM" maxSpeed="40.00"/>
+    <vType id="conventional_human" vClass="passenger" tau="5.5" minGap="7.5" carFollowModel="IDM" maxSpeed="40.00" color="52,128,235"/>
+    <!--vType id="conventional_human" vClass="passenger" tau="3.5" minGap="5.5" carFollowModel="IDM" maxSpeed="28.00" color="52,128,235"/-->
+    <vType id="non_merging" vClass="passenger" tau="5.5" minGap="7.5" carFollowModel="IDM" maxSpeed="40.00"/>
+    <vType id="merging" vClass="passenger" carFollowModel="IDM" emergencyDecel="4.5" length="5" tau="0.1" maxSpeed="40.00" color="1,1,0" accel="10.3" decel="1.7" sigma="0.0" minGap="2.0"/>
+    <!--vType id="connected" vClass="passenger" tau="2.5" minGap="5.5" carFollowModel="IDM" maxSpeed="28.00" lcCooperative="0.0" color="1,1,0" lcStrategic="1.0" accel="3.0" decel="1.5" emergencyDecel="4.5" lcSpeedGain="0.3" sigma="0.0" lcKeepRight="0.3"-->
+    <vType id="connected" vClass="passenger" tau="5.5" minGap="7.5" carFollowModel="IDM" maxSpeed="1.00" emergencyDecel="4.5"/>
+    <vType id="routeByDistance" maxSpeed="1"/>
+    <vType id="connected_pCatchupFollower" vClass="passenger" carFollowModel="IDM" emergencyDecel="4.5" length="5" tau="0.1" maxSpeed="40.00" color="1,1,0" accel="10.3" decel="1.7" sigma="0.0" minGap="2.0"/>
+    <vType id="connected_pCatchup" vClass="passenger" tau="0.1" carFollowModel="IDM" emergencyDecel="4.5" maxSpeed="40.00" color="0,0.8,0.3" accel="10.3" decel="1.7" sigma="0.0" minGap="2.0"/>
+    <vType id="connected_pFollower" vClass="passenger" tau="0.1" carFollowModel="IDM" maxSpeed="40.00" color="1,1,0" accel="10.3" decel="1.7" sigma="0.0"  minGap="2.0" emergencyDecel="4.5"/>
+    <vType id="connected_pLeader" vClass="passenger" length="5" carFollowModel="IDM" maxSpeed="40.00" lcCooperative="0.0" color="1,1,0" lcStrategic="1.0" accel="13.0" decel="1.5" emergencyDecel="4.5" lcSpeedGain="0.3" sigma="0.0" lcKeepRight="0.3"/>
+
+    
+	
+    <trip id="start1Toend1_0" type="conventional"  from="start1" to="end1" depart="0.000000" />
+    <trip id="start1Toend1_1" type="conventional"  from="start1" to="end1" depart="12.456911" />
+    <trip id="start1Toend1_2" type="conventional"  from="start1" to="end1" depart="15.146771" />
+    <trip id="start1Toend1_3" type="conventional"  from="start1" to="end1" depart="18.715122" />
+    <trip id="start1Toend1_4" type="conventional"  from="start1" to="end1" depart="23.216465" />
+    <trip id="start1Toend1_5" type="conventional"  from="start1" to="end1" depart="40.104766" />
+    <trip id="start1Toend1_6" type="conventional"  from="start1" to="end1" depart="58.701873" />
+    <trip id="start1Toend1_7" type="conventional"  from="start1" to="end1" depart="66.138002" />
+    <trip id="start1Toend1_8" type="conventional"  from="start1" to="end1" depart="68.607764" />
+    <trip id="start1Toend1_9" type="conventional"  from="start1" to="end1" depart="84.160778" />
+    <trip id="start1Toend1_10" type="conventional"  from="start1" to="end1" depart="155.056577" />
+    <trip id="start1Toend1_11" type="conventional"  from="start1" to="end1" depart="163.001364" />
+    <trip id="start1Toend1_12" type="conventional"  from="start1" to="end1" depart="176.835952" />
+    <trip id="start1Toend1_13" type="conventional"  from="start1" to="end1" depart="232.987150" />
+    <trip id="start1Toend1_14" type="conventional"  from="start1" to="end1" depart="239.305068" />
+    <trip id="start1Toend1_15" type="conventional"  from="start1" to="end1" depart="243.046296" />
+    <trip id="start1Toend1_16" type="conventional"  from="start1" to="end1" depart="250.302628" />
+    <trip id="start1Toend1_17" type="conventional"  from="start1" to="end1" depart="267.763187" />
+    <trip id="start1Toend1_18" type="conventional"  from="start1" to="end1" depart="328.309390" />
+    <trip id="start1Toend1_19" type="conventional"  from="start1" to="end1" depart="338.928334" />
+    <trip id="start1Toend1_20" type="conventional"  from="start1" to="end1" depart="392.717621" />
+    <trip id="start1Toend1_21" type="conventional"  from="start1" to="end1" depart="394.598590" />
+    <trip id="start1Toend1_22" type="conventional"  from="start1" to="end1" depart="408.684251" />
+    <trip id="start1Toend1_23" type="conventional"  from="start1" to="end1" depart="419.038371" />
+    <trip id="start1Toend1_24" type="conventional"  from="start1" to="end1" depart="424.180253" />
+    <trip id="start1Toend1_25" type="conventional"  from="start1" to="end1" depart="443.610088" />
+    <trip id="start1Toend1_26" type="conventional"  from="start1" to="end1" depart="449.536945" />
+    <trip id="start1Toend1_27" type="conventional"  from="start1" to="end1" depart="469.009679" />
+    <trip id="start1Toend1_28" type="conventional"  from="start1" to="end1" depart="475.114670" />
+    <trip id="start1Toend1_29" type="conventional"  from="start1" to="end1" depart="476.676637" />
+    <trip id="start1Toend1_30" type="conventional"  from="start1" to="end1" depart="483.159500" />
+    <trip id="start1Toend1_31" type="conventional"  from="start1" to="end1" depart="489.718108" />
+    <trip id="start1Toend1_32" type="conventional"  from="start1" to="end1" depart="513.788535" />
+    <trip id="start1Toend1_33" type="conventional"  from="start1" to="end1" depart="544.853621" />
+    <trip id="start1Toend1_34" type="conventional"  from="start1" to="end1" depart="553.490873" />
+    <trip id="start1Toend1_35" type="conventional"  from="start1" to="end1" depart="558.726197" />
+    <trip id="start1Toend1_36" type="conventional"  from="start1" to="end1" depart="587.578452" />
+    <trip id="start1Toend1_37" type="conventional"  from="start1" to="end1" depart="590.079160" />
+    <trip id="start1Toend1_38" type="conventional"  from="start1" to="end1" depart="620.630430" />
+    <trip id="start1Toend1_39" type="conventional"  from="start1" to="end1" depart="633.376755" />
+    <trip id="start1Toend1_40" type="conventional"  from="start1" to="end1" depart="650.096936" />
+    <trip id="start1Toend1_41" type="conventional"  from="start1" to="end1" depart="707.674110" />
+    <trip id="start1Toend1_42" type="conventional"  from="start1" to="end1" depart="714.602971" />
+    <trip id="start1Toend1_43" type="conventional"  from="start1" to="end1" depart="722.263139" />
+    <trip id="start1Toend1_44" type="conventional"  from="start1" to="end1" depart="774.677444" />
+    <trip id="start1Toend1_45" type="conventional"  from="start1" to="end1" depart="778.117691" />
+    <trip id="start1Toend1_46" type="conventional"  from="start1" to="end1" depart="778.624287" />
+    <trip id="start1Toend1_47" type="conventional"  from="start1" to="end1" depart="787.743219" />
+    <trip id="start1Toend1_48" type="conventional"  from="start1" to="end1" depart="789.709858" />
+    <trip id="start1Toend1_49" type="conventional"  from="start1" to="end1" depart="804.961309" />
+    <trip id="start1Toend1_50" type="conventional"  from="start1" to="end1" depart="814.098137" />
+    <trip id="start1Toend1_51" type="conventional"  from="start1" to="end1" depart="849.356852" />
+    <trip id="start1Toend1_52" type="conventional"  from="start1" to="end1" depart="894.890698" />
+    <trip id="start1Toend1_53" type="conventional"  from="start1" to="end1" depart="907.295991" />
+    <trip id="start1Toend1_54" type="conventional"  from="start1" to="end1" depart="912.201099" />
+    <trip id="start1Toend1_55" type="conventional"  from="start1" to="end1" depart="991.728783" />
+    <trip id="start1Toend1_56" type="conventional"  from="start1" to="end1" depart="994.751465" />
+    <trip id="start1Toend1_57" type="conventional"  from="start1" to="end1" depart="1017.424758" />
+    <trip id="start1Toend1_58" type="conventional"  from="start1" to="end1" depart="1038.350870" />
+    <trip id="start1Toend1_59" type="conventional"  from="start1" to="end1" depart="1047.182803" />
+    <trip id="start1Toend1_60" type="conventional"  from="start1" to="end1" depart="1065.809579" />
+    <trip id="start1Toend1_61" type="conventional"  from="start1" to="end1" depart="1070.404890" />
+    <trip id="start1Toend1_62" type="conventional"  from="start1" to="end1" depart="1074.638863" />
+    <trip id="start1Toend1_63" type="conventional"  from="start1" to="end1" depart="1081.698010" />
+    <trip id="start1Toend1_64" type="conventional"  from="start1" to="end1" depart="1108.375389" />
+    <trip id="start1Toend1_65" type="conventional"  from="start1" to="end1" depart="1121.044619" />
+    <trip id="start1Toend1_66" type="conventional"  from="start1" to="end1" depart="1131.175519" />
+    <trip id="start1Toend1_67" type="conventional"  from="start1" to="end1" depart="1151.582569" />
+    <trip id="start1Toend1_68" type="conventional"  from="start1" to="end1" depart="1203.546474" />
+    <trip id="start1Toend1_69" type="conventional"  from="start1" to="end1" depart="1203.729041" />
+    <trip id="start1Toend1_70" type="conventional"  from="start1" to="end1" depart="1214.393340" />
+    <trip id="start1Toend1_71" type="conventional"  from="start1" to="end1" depart="1223.054208" />
+    <trip id="start1Toend1_72" type="conventional"  from="start1" to="end1" depart="1292.070238" />
+    <trip id="start1Toend1_73" type="conventional"  from="start1" to="end1" depart="1296.506730" />
+    <trip id="start1Toend1_74" type="conventional"  from="start1" to="end1" depart="1296.599045" />
+    <trip id="start1Toend1_75" type="conventional"  from="start1" to="end1" depart="1306.974473" />
+    <trip id="start1Toend1_76" type="conventional"  from="start1" to="end1" depart="1310.787175" />
+    <trip id="start1Toend1_77" type="conventional"  from="start1" to="end1" depart="1365.821143" />
+    <trip id="start1Toend1_78" type="conventional"  from="start1" to="end1" depart="1371.389658" />
+    <trip id="start1Toend1_79" type="conventional"  from="start1" to="end1" depart="1372.900255" />
+    <trip id="start1Toend1_80" type="conventional"  from="start1" to="end1" depart="1437.987165" />
+    <trip id="start1Toend1_81" type="conventional"  from="start1" to="end1" depart="1446.159195" />
+    <trip id="start1Toend1_82" type="conventional"  from="start1" to="end1" depart="1455.334125" />
+    <trip id="start1Toend1_83" type="conventional"  from="start1" to="end1" depart="1458.013517" />
+    <trip id="start1Toend1_84" type="conventional"  from="start1" to="end1" depart="1462.297035" />
+    <trip id="start1Toend1_85" type="conventional"  from="start1" to="end1" depart="1485.299716" />
+    <trip id="start1Toend1_86" type="conventional"  from="start1" to="end1" depart="1487.369461" />
+    <trip id="start1Toend1_87" type="conventional"  from="start1" to="end1" depart="1497.550652" />
+    <trip id="start1Toend1_88" type="conventional"  from="start1" to="end1" depart="1512.433818" />
+    <trip id="start1Toend1_89" type="conventional"  from="start1" to="end1" depart="1523.656125" />
+    <trip id="start1Toend1_90" type="conventional"  from="start1" to="end1" depart="1527.870091" />
+    <trip id="start1Toend1_91" type="conventional"  from="start1" to="end1" depart="1532.189960" />
+    <trip id="start1Toend1_92" type="conventional"  from="start1" to="end1" depart="1622.477505" />
+    <trip id="start1Toend1_93" type="conventional"  from="start1" to="end1" depart="1624.059558" />
+    <trip id="start1Toend1_94" type="conventional"  from="start1" to="end1" depart="1626.605998" />
+    <trip id="start1Toend1_95" type="conventional"  from="start1" to="end1" depart="1633.245295" />
+    <trip id="start1Toend1_96" type="conventional"  from="start1" to="end1" depart="1664.410769" />
+    <trip id="start1Toend1_97" type="conventional"  from="start1" to="end1" depart="1681.870146" />
+    <trip id="start1Toend1_98" type="conventional"  from="start1" to="end1" depart="1719.712107" />
+    <trip id="start1Toend1_99" type="conventional"  from="start1" to="end1" depart="1730.446768" />
+</routes>

@@ -1,0 +1,93 @@
+w2=0.868, p=107004.60829493088
+ Retrying in 1 seconds
+---------------------------------
+Simulation starts
+---------------------------------
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 7ms, vehicles TOT 0 ACT 0 BUF 0)                      
+ Retrying in 1 seconds
+Step #0.00 (1ms ~= 100.00*RT, ~1000.00UPS, TraCI: 3ms, vehicles TOT 1 ACT 1 BUF 0)        Step #10.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 1 ACT 1 BUF 0)                      Step #20.00 (0ms ?*RT. ?UPS, TraCI: 9ms, vehicles TOT 4 ACT 4 BUF 0)                      Step #30.00 (0ms ?*RT. ?UPS, TraCI: 6ms, vehicles TOT 5 ACT 5 BUF 0)                      Step #40.00 (0ms ?*RT. ?UPS, TraCI: 7ms, vehicles TOT 5 ACT 5 BUF 0)                      Step #50.00 (0ms ?*RT. ?UPS, TraCI: 9ms, vehicles TOT 6 ACT 6 BUF 0)                      Step #60.00 (0ms ?*RT. ?UPS, TraCI: 8ms, vehicles TOT 7 ACT 7 BUF 0)                      Step #70.00 (0ms ?*RT. ?UPS, TraCI: 11ms, vehicles TOT 9 ACT 9 BUF 0)                     Step #80.00 (0ms ?*RT. ?UPS, TraCI: 10ms, vehicles TOT 9 ACT 9 BUF 0)                     Step #90.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 10 ACT 10 BUF 0)                   Step #100.00 (0ms ?*RT. ?UPS, TraCI: 43ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #110.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #120.00 (0ms ?*RT. ?UPS, TraCI: 10ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #130.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #140.00 (0ms ?*RT. ?UPS, TraCI: 11ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #150.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 10 ACT 10 BUF 0)                  Step #160.00 (0ms ?*RT. ?UPS, TraCI: 11ms, vehicles TOT 11 ACT 11 BUF 0)                  Step #170.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 12 ACT 12 BUF 0)                  Step #180.00 (0ms ?*RT. ?UPS, TraCI: 27ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #190.00 (0ms ?*RT. ?UPS, TraCI: 37ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 31ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #210.00 (0ms ?*RT. ?UPS, TraCI: 25ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #220.00 (0ms ?*RT. ?UPS, TraCI: 30ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #230.00 (0ms ?*RT. ?UPS, TraCI: 51ms, vehicles TOT 13 ACT 13 BUF 0)                  Step #240.00 (0ms ?*RT. ?UPS, TraCI: 21ms, vehicles TOT 15 ACT 15 BUF 0)                  Step #250.00 (1ms ~= 100.00*RT, ~16000.00UPS, TraCI: 26ms, vehicles TOT 16 ACT 16 BUF 0)  Step #260.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 17 ACT 17 BUF 0)                  Step #270.00 (1ms ~= 100.00*RT, ~18000.00UPS, TraCI: 27ms, vehicles TOT 18 ACT 18 BUF 0)  Step #280.00 (0ms ?*RT. ?UPS, TraCI: 48ms, vehicles TOT 18 ACT 18 BUF 0)                  Interrupt signal received, trying to exit gracefully.
+Last Time Speed, 7.200000000000719 || Exp vehicle time 277.77777777775003 || Vehicle time 160.19999999999519 || Mix 277.77777777775003
+Original Q:  [437.5, 375.0]
+Target Q:  569.4444444444167
+Action:  2
+Last Time Speed, 7.200000000000719 || Exp vehicle time 277.77777777775003 || Vehicle time 158.1999999999953 || Mix 277.77777777775003
+Original Q:  [437.5, 569.4444444444167]
+Target Q:  569.4444444444167
+Action:  2
+Last Time Speed, 4.24023214678168 || Exp vehicle time 471.67228839533993 || Vehicle time 155.09999999999548 || Mix 471.67228839533993
+Original Q:  [437.5, 569.4444444444167]
+Target Q:  763.3389550620066
+Action:  2
+Last Time Speed, 19.005386075363212 || Exp vehicle time 105.23332659853783 || Vehicle time 103.4999999999984 || Mix 105.23332659853783
+Original Q:  [437.5, 763.3389550620066]
+Target Q:  459.3999932652045
+Action:  1
+Last Time Speed, 4.859410789076336 || Exp vehicle time 411.5725314879491 || Vehicle time 261.39999999999094 || Mix 411.5725314879491
+Original Q:  [459.3999932652045, 763.3389550620066]
+Target Q:  703.2391981546158
+Action:  2
+Last Time Speed, 8.696575807860224 || Exp vehicle time 229.9755724767374 || Vehicle time 244.2999999999904 || Mix 229.9755724767374
+Original Q:  [459.3999932652045, 703.2391981546158]
+Target Q:  521.6422391434041
+Action:  2
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 125.49999999999714 || Mix 83.33333333333333
+Original Q:  [459.3999932652045, 521.6422391434041]
+Target Q:  437.5
+Action:  1
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 119.69999999999747 || Mix 83.33333333333333
+Original Q:  [437.5, 521.6422391434041]
+Target Q:  437.5
+Action:  1
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 116.69999999999764 || Mix 83.33333333333333
+Original Q:  [437.5, 521.6422391434041]
+Target Q:  437.5
+Action:  1
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 110.19999999999801 || Mix 83.33333333333333
+Original Q:  [437.5, 521.6422391434041]
+Target Q:  437.5
+Action:  1
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 93.49999999999896 || Mix 83.33333333333333
+Original Q:  [437.5, 521.6422391434041]
+Target Q:  437.5
+Action:  1
+Last Time Speed, 5.600000000000001 || Exp vehicle time 357.14285714285705 || Vehicle time 297.1999999999991 || Mix 357.14285714285705
+Original Q:  [437.5, 521.6422391434041]
+Target Q:  648.8095238095237
+Action:  2
+Last Time Speed, 5.600000000000001 || Exp vehicle time 357.14285714285705 || Vehicle time 295.8999999999988 || Mix 357.14285714285705
+Original Q:  [437.5, 648.8095238095237]
+Target Q:  648.8095238095237
+Action:  2
+Last Time Speed, 4.0 || Exp vehicle time 500.0 || Vehicle time 282.99999999999585 ||Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 304.9000000000008Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 304.90000000000083 || Mix 83.33333333333333
+Original Q:  [437.5, 791.6666666666667]
+Target Q:  375.0
+Action:  2
+Last Time Speed, 24 || Exp vehicle time 83.33333333333333 || Vehicle time 298.1999999999993 || Mix 83.33333333333333
+Original Q:  [437.5, 375.0]
+Target Q:  375.0
+Action:  2
+Last Time Speed, 24.0 || Exp vehicle time 83.33333333333333 || Vehicle time 133.99999999999667 || Mix 83.33333333333333
+Original Q:  [437.5, 375.0]
+Target Q:  437.49999999999994
+Action:  1
+Last Time Speed, 24.0 || Exp vehicle time 83.33333333333333 || Vehicle time 123.99999999999723 || Mix 83.333333Step #280.00 (0ms ?*RT. ?UPS, TraCI: 110ms, vehicles TOT 18 ACT 18 BUF 0)                 Step #290.00 (1ms ~= 100.00*RT, ~18000.00UPS, TraCI: 44ms, vehicles TOT 18 ACT 18 BUF 0)  Step #300.00 (0ms ?*RT. ?UPS, TraCI: 27ms, vehicles TOT 18 ACT 18 BUF 0)                  Step #310.00 (0ms ?*RT. ?UPS, TraCI: 42ms, vehicles TOT 18 ACT 18 BUF 0)                  Step #320.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 18 ACT 18 BUF 0)                  Step #330.00 (0ms ?*RT. ?UPS, TraCI: 26ms, vehicles TOT 19 ACT 19 BUF 0)                  Step #340.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 20 ACT 20 BUF 0)                  Step #350.00 (0ms ?*RT. ?UPS, TraCI: 27ms, vehicles TOT 20 ACT 20 BUF 0)                  Step #360.00 (0ms ?*RT. ?UPS, TraCI: 32ms, vehicles TOT 20 ACT 20 BUF 0)                  Step #370.00 (1ms ~= 100.00*RT, ~20000.00UPS, TraCI: 63ms, vehicles TOT 20 ACT 20 BUF 0)  Step #380.00 (0ms ?*RT. ?UPS, TraCI: 56ms, vehicles TOT 20 ACT 20 BUF 0)                  Step #390.00 (0ms ?*RT. ?UPS, TraCI: 146ms, vehicles TOT 20 ACT 20 BUF 0)                 Step #400.00 (1ms ~= 100.00*RT, ~22000.00UPS, TraCI: 25ms, vehicles TOT 22 ACT 22 BUF 0)  Step #410.00 (0ms ?*RT. ?UPS, TraCI: 79ms, vehicles TOT 23 ACT 23 BUF 0)                  Step #420.00 (0ms ?*RT. ?UPS, TraCI: 25ms, vehicles TOT 24 ACT 24 BUF 0)                  Step #430.00 (0ms ?*RT. ?UPS, TraCI: 57ms, vehicles TOT 25 ACT 25 BUF 0)                  Step #440.00 (0ms ?*RT. ?UPS, TraCI: 69ms, vehicles TOT 25 ACT 25 BUF 0)                  Step #450.00 (0ms ?*RT. ?UPS, TraCI: 22ms, vehicles TOT 27 ACT 27 BUF 0)                  Step #460.00 (0ms ?*RT. ?UPS, TraCI: 56ms, vehicles TOT 27 ACT 27 BUF 0)                  Step #470.00 (0ms ?*RT. ?UPS, TraCI: 59ms, vehicles TOT 28 ACT 28 BUF 0)                  Step #480.00 (0ms ?*RT. ?UPS, TraCI: 56ms, vehicles TOT 30 ACT 30 BUF 0)                  Step #490.00 (0ms ?*RT. ?UPS, TraCI: 70ms, vehicles TOT 32 ACT 32 BUF 0)                  Step #500.00 (0ms ?*RT. ?UPS, TraCI: 41ms, vehicles TOT 32 ACT 32 BUF 0)                  Step #510.00 (0ms ?*RT. ?UPS, TraCI: 45ms, vehicles TOT 32 ACT 32 BUF 0)                  Step #520.00 (0ms ?*RT. ?UPS, TraCI: 57ms, vehicles TOT 33 ACT 33 BUF 0)                  Step #530.00 (0ms ?*RT. ?UPS, TraCI: 60ms, vehicles TOT 33 ACT 33 BUF 0)                  Step #540.00 (0ms ?*RT. ?UPS, TraCI: 51ms, vehicles TOT 33 ACT 33 BUF 0)                  Step #550.00 (0ms ?*RT. ?UPS, TraCI: 52ms, vehicles TOT 34 ACT 34 BUF 0)                  Step #560.00 (0ms ?*RT. ?UPS, TraCI: 53ms, vehicles TOT 36 ACT 36 BUF 0)                  Step #570.00 (0ms ?*RT. ?UPS, TraCI: 60ms, vehicles TOT 36 ACT 36 BUF 0)                  Step #580.00 (0ms ?*RT. ?UPS, TraCI: 56ms, vehicles TOT 36 ACT 36 BUF 0)                  Step #590.00 (1ms ~= 100.00*RT, ~37000.00UPS, TraCI: 48ms, vehicles TOT 37 ACT 37 BUF 0)  Step #600.00 (0ms ?*RT. ?UPS, TraCI: 51ms, vehicles TOT 38 ACT 38 BUF 0)                  Step #610.00 (1ms ~= 100.00*RT, ~38000.00UPS, TraCI: 72ms, vehicles TOT 38 ACT 38 BUF 0)  Step #620.00 (0ms ?*RT. ?UPS, TraCI: 58ms, vehicles TOT 38 ACT 38 BUF 0)                  Step #630.00 (0ms ?*RT. ?UPS, TraCI: 128ms, vehicles TOT 39 ACT 38 BUF 0)                 Step #640.00 (0ms ?*RT. ?UPS, TraCI: 62ms, vehicles TOT 40 ACT 39 BUF 0)                  Step #650.00 (0ms ?*RT. ?UPS, TraCI: 70ms, vehicles TOT 40 ACT 39 BUF 0)                  Step #660.00 (0ms ?*RT. ?UPS, TraCI: 79ms, vehicles TOT 41 ACT 40 BUF 0)                  Step #670.00 (0ms ?*RT. ?UPS, TraCI: 77ms, vehicles TOT 41 ACT 40 BUF 0)                  Step #680.00 (0ms ?*RT. ?UPS, TraCI: 90ms, vehicles TOT 41 ACT 40 BUF 0)                  Step #690.00 (1ms ~= 100.00*RT, ~40000.00UPS, TraCI: 68ms, vehicles TOT 41 ACT 40 BUF 0)  Step #700.00 (0ms ?*RT. ?UPS, TraCI: 54ms, vehicles TOT 41 ACT 40 BUF 0)                  Step #710.00 (1ms ~= 100.00*RT, ~41000.00UPS, TraCI: 87ms, vehicles TOT 42 ACT 41 BUF 0)  Step #720.00 (0ms ?*RT. ?UPS, TraCI: 92ms, vehicles TOT 43 ACT 42 BUF 0)                  Step #730.00 (1ms ~= 100.00*RT, ~43000.00UPS, TraCI: 75ms, vehicles TOT 44 ACT 43 BUF 0)  SLast Time Speed, 12.000000000510427 || Exp vehicle time 166.6666666595774 || Vehicle time 167.49999999999477 || Mix 166.6666666595774
+Original Q:  [437.49999999999994, 375.0]
+Target Q:  520.833333326244
+Action:  1
+Last Time Speed, 12.00000000034158 || Exp vehicle time 166.6666666619225 || Vehicle time 166.29999999999484 || Mix 166.6666666619225
+Original Q:  [520.833333326244, 375.0]
+Target Q:  520.8333333285891
+Action:  1
+Last Time Speed, 12.000000000213783 || Exp vehicle time 166.66666666369747 || Vehicle time 152.9999999999956 || Mix 166.66666666369747
+Original Q:  [520.8333333285891, 375.0]
+Target Q:  520.8333333303641
+Action:  1
+Last Time Speed, 12.000000000133891 || Exp vehicle time 166.66666666480708 || Vehicle time 143.29999999999615 || Mix 166.66666666480708
+Original Q:  [520.8333333303641, 375.0]
+Target Q:  520.8333333314737
+Action:  1
+Last Time Speed, 12.000000000078542 || Exp vehicle time 166.6666666655758 || Vehicle time 139.09999999999638 || Mix 166.6666666655758
+Original Q:  [520.8333333314737, 375.0]
+Target Q:  520.8333333322424
+Action:  1
+tep #740.00 (0ms ?*RT. ?UPS, TraCI: 58ms, vehicles TOT 44 ACT 43 BUF 0)                  Step #750.00 (0ms ?*RT. ?UPS, TraCI: 117ms, vehicles TOT 44 ACT 43 BUF 0)                 Step #760.00 (0ms ?*RT. ?UPS, TraCI: 70ms, vehicles TOT 44 ACT 43 BUF 0)                  

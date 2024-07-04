@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 15:10:43 by Eclipse SUMO GUI Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N2_500.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49143"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="e1Detectorlink9" nVehContrib="3" flow="12.00" occupancy="0.09" speed="18.76" harmonicMeanSpeed="18.74" length="5.00" nVehEntered="3"/>
+    <interval begin="900.00" end="1800.00" id="e1Detectorlink9" nVehContrib="9" flow="36.00" occupancy="0.26" speed="19.22" harmonicMeanSpeed="18.97" length="5.00" nVehEntered="9"/>
+    <interval begin="1800.00" end="2700.00" id="e1Detectorlink9" nVehContrib="33" flow="132.00" occupancy="0.94" speed="19.75" harmonicMeanSpeed="19.60" length="5.00" nVehEntered="33"/>
+    <interval begin="2700.00" end="3600.00" id="e1Detectorlink9" nVehContrib="14" flow="56.00" occupancy="0.43" speed="18.32" harmonicMeanSpeed="18.28" length="5.00" nVehEntered="14"/>
+    <interval begin="3600.00" end="4001.00" id="e1Detectorlink9" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 06 Apr 2021 10:14:14 AM EDT by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="astar"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="42949"/>
+    </traci_server>
+
+    <gui_only>
+        <tracker-interval value="0.5"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>

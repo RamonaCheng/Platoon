@@ -1,0 +1,54 @@
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.03/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.02/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.019/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.018/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.017/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.016/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.015/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 14 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.014/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 行 16: /home/lscsc/platooning/results/multi_cost_analysis/0.013/rl_dp.log: 没有那个文件或目录
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.012/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.011/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.01/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.009/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.008/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.007/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.006/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 第 26 行： cd: /home/lscsc/platooning/rl_dp: 没有那个文件或目录
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.005/rl_dp.log: 没有那个文件或目录
+mkdir: 无法创建目录 "/home/lscsc": 权限不够
+run_cost_analysis.sh: 行 28: /home/lscsc/platooning/results/multi_cost_analysis/0.004/rl_dp.log: 没有那个文件或目录

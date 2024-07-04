@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 15:10:43 by Eclipse SUMO GUI Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N2_500.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49143"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="e1Detectorlink4" nVehContrib="43" flow="172.00" occupancy="1.57" speed="15.49" harmonicMeanSpeed="15.21" length="5.00" nVehEntered="43"/>
+    <interval begin="900.00" end="1800.00" id="e1Detectorlink4" nVehContrib="48" flow="192.00" occupancy="1.69" speed="16.57" harmonicMeanSpeed="15.82" length="5.00" nVehEntered="48"/>
+    <interval begin="1800.00" end="2700.00" id="e1Detectorlink4" nVehContrib="58" flow="232.00" occupancy="2.03" speed="16.59" harmonicMeanSpeed="15.89" length="5.00" nVehEntered="58"/>
+    <interval begin="2700.00" end="3600.00" id="e1Detectorlink4" nVehContrib="86" flow="344.00" occupancy="3.25" speed="14.82" harmonicMeanSpeed="14.72" length="5.00" nVehEntered="86"/>
+    <interval begin="3600.00" end="4001.00" id="e1Detectorlink4" nVehContrib="36" flow="323.19" occupancy="3.15" speed="14.27" harmonicMeanSpeed="14.25" length="5.00" nVehEntered="36"/>
+</detector>

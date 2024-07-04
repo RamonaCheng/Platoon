@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-25 15:10:43 by Eclipse SUMO GUI Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N2_500.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="49143"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="e1Detectorlink17" nVehContrib="5" flow="20.00" occupancy="0.19" speed="14.51" harmonicMeanSpeed="14.51" length="5.00" nVehEntered="5"/>
+    <interval begin="900.00" end="1800.00" id="e1Detectorlink17" nVehContrib="43" flow="172.00" occupancy="1.66" speed="14.69" harmonicMeanSpeed="14.35" length="5.00" nVehEntered="43"/>
+    <interval begin="1800.00" end="2700.00" id="e1Detectorlink17" nVehContrib="22" flow="88.00" occupancy="0.88" speed="14.03" harmonicMeanSpeed="13.94" length="5.00" nVehEntered="22"/>
+    <interval begin="2700.00" end="3600.00" id="e1Detectorlink17" nVehContrib="16" flow="64.00" occupancy="0.56" speed="16.94" harmonicMeanSpeed="15.75" length="5.00" nVehEntered="16"/>
+    <interval begin="3600.00" end="4001.00" id="e1Detectorlink17" nVehContrib="11" flow="98.75" occupancy="0.88" speed="15.80" harmonicMeanSpeed="15.63" length="5.00" nVehEntered="11"/>
+</detector>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-17 22:30:36 by Eclipse SUMO sumo Version v1_20_0+0251-82de900cd34
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Nguyen-Dupuis/newND_same.net.xml"/>
+        <route-files value="Nguyen-Dupuis/N1_300.rou.xml"/>
+        <additional-files value="Nguyen-Dupuis/abc.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Nguyen-Dupuis/trip_info.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="56550"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="start1Toend1_0" depart="0.00" departLane="start1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="628.10" arrivalLane="end1_0" arrivalPos="20.00" arrivalSpeed="24.00" duration="628.10" routeLength="15073.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="247.60" rerouteNo="4" devices="tripinfo_start1Toend1_0 routing_start1Toend1_0" vType="conventional" speedFactor="1.06" vaporized=""/>
+</tripinfos>
